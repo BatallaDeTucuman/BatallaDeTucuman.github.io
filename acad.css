@@ -1,0 +1,311 @@
+*
+{
+    font-family: 'Lato', sans-serif;
+}
+
+body
+{
+    padding: 40px;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+video
+{
+    position:fixed;
+
+    min-width: 100%;
+    min-height: 100%;
+
+    top:50%;
+    left:50%;
+
+    transform: translateX(-50%) translateY(-50%);
+
+    z-index: -1;
+
+    opacity: 0.5;
+
+   mix-blend-mode: overlay;
+}
+
+h1.title
+{
+   font-size: 300%; 
+   text-align: center;
+   text-shadow: 3px 5px 15px blue;
+   color: black;
+   text-decoration: underline;
+}
+
+p.text
+{
+   font-size: 25px;
+   color:black;
+   text-align:justify;
+}
+
+/*---------------------------------------------------------------------*/
+
+.Conjunto_img_3
+{
+    margin:auto; /*Crea un espacio fuera del elemento automatico por defecto*/
+
+    width: 100%;
+
+    list-style: none; /*Elimina los puntos de la lista (Se colocan una imagen debajo de la otra, hasta aqui)*/
+
+    padding: 20px;                 /*Crea un espacio dentro del elemento */
+
+    box-sizing: border-box;
+
+    display: flex;                 /*La imagen se la coloca al costado*/
+
+    flex-wrap: wrap;            /*Se va modificando cuando lo achico*/
+
+    justify-content: space-around;
+
+    padding-top: 0px;
+
+}
+
+.Conjunto_img_3 li
+{
+    margin: auto;
+}
+
+.Conjunto_img_3 img
+{
+    width: 400px;
+    height: 550px;
+    border: solid 3px black;
+}
+
+/*------------------------------------------------------------------------*/
+
+.modal_3
+{
+   display:none;
+}
+
+.modal_3:target
+{
+    display: block;
+
+    position: fixed;             
+
+    background: rgba(0,0,0,0.8);     
+
+    top: 0px;                          
+
+    left: 0px;                         
+
+    width: 100%;
+
+    height: 100%;
+}
+
+.imagen_3
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.imagen_3 a
+{
+    color:#fff;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding-top: 0px;
+}
+
+.imagen_3 a:nth-child(2) 
+{
+   margin: 0;
+   height: 100%;
+   
+}
+
+.imagen_3 img
+{
+    width: 450px;
+    height: 600px;
+    margin-top: -120px;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+
+table
+{
+    margin:auto;
+    width: 700px;
+    border-collapse: collapse;
+    font-size: 25px;
+}
+
+th, td
+{
+    border: solid 1px black;
+}
+
+.lalo
+{
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px)
+{
+
+body
+{
+  padding: 5px;
+  margin: 5px;
+  padding-top: 0px;
+}
+
+video
+{
+    position:fixed;
+
+    min-width: 100%;
+    min-height: 100%;
+
+    top:50%;
+    left:50%;
+
+    transform: translateX(-50%) translateY(-50%);
+
+    z-index: -1;
+
+    opacity: 0.4;
+
+   mix-blend-mode: overlay;
+}
+
+h1.title
+{
+  font-size: 150%;
+  text-align: center;
+  text-shadow: 3px 5px 15px blue;
+  color: black;
+  text-decoration: underline;
+}
+
+p.text
+{
+  font-size: 15px;
+  text-align: justify-all;
+  color: black;
+}
+
+.Conjunto_img_3
+{
+    margin:auto; 
+
+    width: 100%;
+
+    list-style: none; 
+
+    padding: 20px;                 
+    box-sizing: border-box;
+
+    display: flex;                
+
+    flex-wrap: wrap;            
+    justify-content: space-around;
+
+    padding-top: 0px;
+
+}
+
+.Conjunto_img_3 li
+{
+    margin: auto;
+}
+
+.Conjunto_img_3 img
+{
+    width: 160px;
+    height: 200px;
+    border: solid 3px black;
+}
+
+
+
+.modal_3
+{
+   display:none;
+}
+
+.modal_3:target
+{
+    display: block;
+
+    position: fixed;             
+
+    background: rgba(0,0,0,0.8);     
+
+    top: 0px;                        
+    left: 0px;                         
+
+    width: 100%;
+
+    height: 100%;
+}
+
+.imagen_3
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.imagen_3 a
+{
+    color:#fff;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0px 0px 75px;
+    padding-top: 95px;
+}
+
+.imagen_3 a:nth-child(2) 
+{
+   margin: 0;
+   height: 100%;
+   
+}
+
+.imagen_3 img
+{
+    width: 320px;
+    height: 500px;
+    margin-top: -120px;
+    border: 7px solid black;
+    box-sizing: border-box;
+}
+
+table
+{
+    margin:auto;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+th, td
+{
+    border: solid 1px black;
+}
+
+.lalo
+{
+    text-align:center;
+}
+}
