@@ -139,7 +139,7 @@ p.text
     box-sizing: border-box;
 }
 
-table
+/*table
 {
     margin:auto;
     width: 700px;
@@ -155,7 +155,7 @@ th, td
 .lalo
 {
     text-align: center;
-}
+} */
 
 @media screen and (max-width: 1000px)
 {
@@ -291,7 +291,7 @@ p.text
     box-sizing: border-box;
 }
 
-table
+/*table
 {
     margin:auto;
     width: 100%;
@@ -307,5 +307,5 @@ th, td
 .lalo
 {
     text-align:center;
-}
+}*/
 }
